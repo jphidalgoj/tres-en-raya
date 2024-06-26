@@ -1,0 +1,37 @@
+.header-content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: aquamarine;
+    flex-direction: column;
+    margin: 1rem auto;
+    width: 24rem;
+}
+.boton-titulo{
+    width: 4rem;
+    background-color:aqua;
+    text-align: center;
+    margin: 0 auto 1rem auto;
+    border-radius: 1rem;
+    
+
+}
+.contenedor-principal{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    width: 8rem;
+    height: 15rem;
+
+}
+.botones{
+    width: 5rem;
+    height: 2rem;
+    margin: 1.5rem;
+
+}

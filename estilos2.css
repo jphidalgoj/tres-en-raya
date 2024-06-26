@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1, h2{
+    text-align: center;
+}
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 1.5em;
+}
+
+#tablero{
+    margin: auto;
+    width: 450px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tablero > button{
+    width: 150px;
+    height: 150px;
+    max-width: 33.33%;
+    font-size: 10em;
+    
+}
+
+#texto-victoria{
+    visibility: hidden;
+    color: chartreuse;
+}
